@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedLink - Your Centralized Health Records</title>
+    <!-- Favicon: Your MedLink logo in the browser tab -->
+    <link rel="icon" href="images/medlink_logo.jpg" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts: Inter for a modern, professional look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <!-- MedLink Logo Image -->
+                <img src="images/medlink_logo.jpg" alt="MedLink Logo" class="medlink-logo-img">
+                <!-- Text "MedLink" is part of the image, so commenting out the span to avoid redundancy -->
+                <!-- <span>MedLink</span> -->
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Transforming Healthcare with Centralized Digital Records</h1>
+            <p>MedLink is your secure, efficient, and centralized electronic health record system, simplifying patient care and improving outcomes across Nigeria.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Get Started</a>
+                <a href="#services" class="btn btn-secondary">Our Solutions</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="illustration-circle">
+                <i class="fas fa-notes-medical"></i> <!-- Icon representing medical notes/records -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About MedLink</h2>
+                <p>Your trusted partner in digital health transformation for a healthier Nigeria.</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Empowering Healthcare Through Innovative Technology</h3>
+                    <p>Founded in 2020, MedLink has been at the forefront of helping Nigerian healthcare providers navigate the digital landscape. Our dedicated team of cloud engineers, developers, and health informatics specialists work closely with clinics, hospitals, and medical centers to deliver tailored EHR solutions that drive efficiency, enhance patient safety, and ensure seamless data accessibility.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-number">150+</span>
+                            <span class="stat-label">Facilities Partnered</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-label">User Satisfaction</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Years of Innovation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="illustration-square">
+                        <i class="fas fa-user-md"></i> <!-- Icon representing a medical professional -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Comprehensive Health Solutions</h2>
+                <p>Delivering cutting-edge digital services tailored to your healthcare facility's unique needs.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-file-medical-alt"></i> <!-- Icon for Electronic Health Records -->
+                    </div>
+                    <h3>Electronic Health Records (EHR)</h3>
+                    <p>Secure and centralized management of patient medical histories, prescriptions, lab results, and more.</p>
+                    <ul>
+                        <li>Responsive Patient Demographics</li>
+                        <li>Comprehensive Clinical Notes</li>
+                        <li>Integrated Medication Management</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cloud-upload-alt"></i> <!-- Icon for Cloud Infrastructure -->
+                    </div>
+                    <h3>Cloud Infrastructure & Migration</h3>
+                    <p>Scalable, secure cloud deployment and seamless migration of existing patient data to MedLink's robust platform.</p>
+                    <ul>
+                        <li>Secure Cloud Hosting (AWS/Azure/GCP)</li>
+                        <li>Efficient Data Migration Services</li>
+                        <li>High Scalability & Reliability</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i> <!-- Icon for Data Security -->
+                    </div>
+                    <h3>Advanced Data Security & Compliance</h3>
+                    <p>Implementing robust security measures and strict adherence to global healthcare data protection standards.</p>
+                    <ul>
+                        <li>GDPR & HIPAA Compliance</li>
+                        <li>End-to-End Data Encryption</li>
+                        <li>Granular Access Control & Auditing</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i> <!-- Icon for Health Analytics -->
+                    </div>
+                    <h3>Health Analytics & Reporting</h3>
+                    <p>Gain actionable insights from patient data to improve care quality, optimize operations, and inform public health initiatives.</p>
+                    <ul>
+                        <li>Patient Outcome Trends</li>
+                        <li>Resource Optimization Dashboards</li>
+                        <li>Customizable Public Health Reports</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Healthcare Partners Say</h2>
+                <p>Real feedback from medical facilities benefiting from MedLink's transformative solutions.</p>
+            </div>
+            <!-- Testimonials Grid with Horizontal Scroll -->
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"MedLink revolutionized our patient data management. We've seen a significant reduction in administrative burden and a marked improvement in the speed and accuracy of record access. Highly recommend for any clinic!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/Dr.adebowale.jpg" alt="Dr. Adebowale Adesanya" class="author-pic"> <!-- Placeholder Image -->
+                        <div class="author-info">
+                            <h4>Dr. Adebowale Adesanya</h4>
+                            <span>Head of Operations, Grace Medical Center</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"Implementing MedLink has transformed our hospital's workflow. The cloud-based system allows our staff to access patient information securely from anywhere, greatly enhancing collaboration and care delivery."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/Ezinne.jpg" alt="Nurse Ezinne Elele" class="author-pic"> <!-- Placeholder Image -->
+                        <div class="author-info">
+                            <h4>Nurse Ezinne Elele</h4>
+                            <span>Chief Nursing Officer, Royal General Hospital</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"The analytics features in MedLink have given us unprecedented insights into patient trends, allowing us to optimize resource allocation and improve our public health initiatives significantly."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/Eriayo.jpg" alt="Admin. Eriayo Omoregie" class="author-pic"> <!-- Placeholder Image -->
+                        <div class="author-info">
+                            <h4>Admin. Eriayo Omoregie</h4>
+                            <span>Hospital Administrator, Unity Clinic</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"MedLink's security features are top-notch. We feel confident that our patient data is protected, and the compliance auditing tools make our regulatory reporting much simpler."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/Raphael.jpg" alt="Security Head, Raphael Ofuasia" class="author-pic"> <!-- Placeholder Image -->
+                        <div class="author-info">
+                            <h4>Raphael Ofuasia</h4>
+                            <span>Head of IT Security, City General Hospital</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch With MedLink</h2>
+                <p>Ready to start your digital health transformation journey? Contact us today!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Our Office</h3>
+                            <p>123 Health Innovation Way<br>Lagos, Nigeria 100001</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+234 706 891 0990</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@medlink.com.ng</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <!-- MedLink Logo Image -->
+                        <img src="images/medlink_logo.jpg" alt="MedLink Logo" class="medlink-logo-img">
+                        <!-- Text "MedLink" is part of the image, so commenting out the span to avoid redundancy -->
+                        <!-- <span>MedLink</span> -->
+                    </div>
+                    <p>Empowering Nigerian healthcare through innovative electronic health record solutions. Your patient's well-being is our mission.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Our Solutions</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Our Solutions</h3>
+                    <ul>
+                        <li><a href="#">EHR Implementation</a></li>
+                        <li><a href="#">Cloud Integration</a></li>
+                        <li><a href="#">Data Security</a></li>
+                        <li><a href="#">Health Analytics</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info-footer">
+                        <p><i class="fas fa-map-marker-alt"></i> Lagos, Nigeria</p>
+                        <p><i class="fas fa-phone"></i> +234 706 891 0990</p>
+                        <p><i class="fas fa-envelope"></i> info@medlink.com.ng</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 MedLink. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" class="scroll-to-top-btn" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // Mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
+        }));
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Custom Message Box for Form Submission (instead of alert)
+        function showMessageBox(message) {
+            const messageBox = document.createElement('div');
+            messageBox.className = 'custom-message-box';
+            messageBox.innerHTML = `
+                <div class="message-box-content">
+                    <p>${message}</p>
+                    <button class="message-box-close-btn">OK</button>
+                </div>
+            `;
+            document.body.appendChild(messageBox);
+            messageBox.classList.add('show'); // Show the message box
+
+            document.querySelector('.message-box-close-btn').addEventListener('click', () => {
+                messageBox.classList.remove('show'); // Hide on click
+                setTimeout(() => messageBox.remove(), 300); // Remove after transition
+            });
+
+            // Remove after a few seconds if not closed manually
+            setTimeout(() => {
+                if (messageBox.parentNode) {
+                    messageBox.classList.remove('show');
+                    setTimeout(() => messageBox.remove(), 300);
+                }
+            }, 3000); // Message disappears after 3 seconds
+        }
+
+        // Form submission handler using custom message box
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            showMessageBox('Thank you for your message! We will get back to you soon.');
+            this.reset();
+        });
+
+        // Add scroll effect to navbar
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Scroll to top button logic
+        const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) { // Show button after scrolling down 300px
+                scrollToTopBtn.classList.add('show');
+            } else {
+                scrollToTopBtn.classList.remove('show');
+            }
+        });
+
+        scrollToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Dynamic active navigation link on scroll
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.nav-menu .nav-link');
+        const navBarHeight = document.querySelector('.navbar').offsetHeight; // Get navbar height dynamically
+
+        function activateNavLink() {
+            let current = '';
+            sections.forEach(section => {
+                // Adjust sectionTop to account for fixed navbar height
+                const sectionTop = section.offsetTop - navBarHeight - 100; // Added extra offset for better UX
+                const sectionHeight = section.clientHeight;
+                if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').includes(current)) {
+                    link.classList.add('active');
+                }
+            });
+        }
+
+        // Initial call and on scroll
+        window.addEventListener('load', activateNavLink); // Activate on load
+        window.addEventListener('scroll', activateNavLink);
+
+        // Hero section parallax effect (subtle)
+        const heroContent = document.querySelector('.hero-content');
+        const heroImage = document.querySelector('.hero-image'); // This is the illustration-circle container
+
+        window.addEventListener('scroll', () => {
+            const scrollPosition = window.scrollY;
+            // Adjust these multipliers for desired effect strength
+            // Content moves down slightly slower
+            heroContent.style.transform = `translateY(${scrollPosition * 0.15}px)`;
+            // Image moves up slightly slower
+            heroImage.style.transform = `translateY(${scrollPosition * -0.08}px)`;
+        });
+    </script>
+</body>
+</html>
